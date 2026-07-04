@@ -1,0 +1,75 @@
+/* Universal Selector */
+* {
+    front-family: sans-serif;
+}
+/* Element Selector or Tag Selector*/
+h1{
+    color:aquamarine;
+}
+p{
+    color:brown;
+}
+/* Class Selectors */
+.highlight{
+    background-color: darkgoldenrod;
+}
+/*ID Selector */
+#unique-box{
+    border: 2px solid green;
+}
+/* Group Selector */
+h1, .highlight, #uniqur-box{
+    font-style: italic;
+}
+/* Descendent Selector */
+.nested div p {
+    color: darkcyan;
+}
+
+/* Child Selector */
+.nested > div > div > p{
+    background-color: red;
+}
+/* Adjacent Sibling Selector */
+h3 + p{
+    color: cornflowerblue;
+}
+/* General sibling selector */
+h3 ~ p{
+    color: cadetblue;
+}
+/* Attribute Selector */
+input[type="text"]{
+    border: 2px solid palevioletred;
+}
+input[type="password"]{
+    border: 2px solid hotpink;
+}
+/* Child selector */
+
+ul li {
+color: chocolate;
+}
+/* Pseudo class */
+.hover-button:hover{
+    background-color: crimson;
+}
+input:focus{
+    outline: none;
+}
+li:first-child{
+    color: rgb(255, 158, 47);
+}
+li:last-child{
+    color: rgb(255, 0, 4);
+}
+li:nth-child{
+color: chocolate;
+}
+/* Pseudo Elements */
+.pseudo::before{
+    content: '👉';
+}
+.pseudo::after{
+    content:'👈';
+}
