@@ -1,0 +1,11 @@
+#html.html{
+    background-color: bisque;
+}
+body {
+    color: darkblue;
+}
+ul {
+    font-size: 32px;
+    font-weight: 900;
+    font-style: italic;
+}

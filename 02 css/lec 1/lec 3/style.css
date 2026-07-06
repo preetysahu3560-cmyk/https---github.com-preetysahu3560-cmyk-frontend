@@ -1,0 +1,26 @@
+#html.html {
+    background-color: blanchedalmond;
+}
+#html {
+    background-color: cadetblue;
+}
+.html {
+    background-color: blueviolet;
+}
+li {
+    background-color: crimson;
+}
+.html {
+    background-color: beige !important;
+}
+li {
+    background-color: aquamarine;
+}
+li {
+    background-color: darkgreen !important;
+}
+
+/**
+element selector ->(0,0,1)->1
+class selector ->(0,1,0) ->10
+id selector -> (1,0,0) ->100
